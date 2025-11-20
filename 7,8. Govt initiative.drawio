@@ -1,0 +1,337 @@
+<mxfile host="Electron" modified="2024-11-20T09:50:34.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="3oYkYS0EiJgvI2JgG1GE" version="24.2.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1158" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-19" value="Get the product_id and cat_id from portal through API for Made in India products : new_1&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="49" y="800" width="730" height="130" as="geometry">
+            <mxRectangle x="150" y="800" width="430" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5lzXS4pnuD2XTNb6hV_C-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-19" source="KuK2tchU7G1Q165hKLO4-15" target="KuK2tchU7G1Q165hKLO4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-15" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;Check if the request is coming from the server in the saved ip_list&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="5lzXS4pnuD2XTNb6hV_C-19">
+          <mxGeometry x="11" y="40" width="189" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-19" source="KuK2tchU7G1Q165hKLO4-20" target="KuK2tchU7G1Q165hKLO4-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-20" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;Get the product_id and cat_id from user through API&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="5lzXS4pnuD2XTNb6hV_C-19">
+          <mxGeometry x="245" y="45" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-56" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;mii_gi(productid,cat_id)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="5lzXS4pnuD2XTNb6hV_C-19">
+          <mxGeometry x="510" y="45" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5lzXS4pnuD2XTNb6hV_C-0" target="5lzXS4pnuD2XTNb6hV_C-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-0" value="Fetch required columns for govt. initiative: split1_gi_data_ext_score" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="100" width="670" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0" source="fGHm1Qk_42CE14UfGaTc-1" target="fGHm1Qk_42CE14UfGaTc-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGHm1Qk_42CE14UfGaTc-1" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the govt. initiative details &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;from DB through query&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="10" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0" source="fGHm1Qk_42CE14UfGaTc-0" target="WIyWlLk6GJQsqaUBKTNV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGHm1Qk_42CE14UfGaTc-0" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Store the data in &#39;data&#39; d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="230" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0" source="WIyWlLk6GJQsqaUBKTNV-11" target="5lzXS4pnuD2XTNb6hV_C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Convert the json object &lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;MII_Info into dictionary&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="480" y="35" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0" source="5lzXS4pnuD2XTNb6hV_C-1" target="5lzXS4pnuD2XTNb6hV_C-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-1" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the origin_country &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;and sold_as from MII_Info&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="470" y="115" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0" source="5lzXS4pnuD2XTNb6hV_C-2" target="5lzXS4pnuD2XTNb6hV_C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-2" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Convert the json object&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;msme_verification_details &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;into dictionary&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="245" y="110" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0" source="5lzXS4pnuD2XTNb6hV_C-3" target="5lzXS4pnuD2XTNb6hV_C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-3" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Drop the columns that are &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;not required&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="245" y="197.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-4" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the Gender &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;and socialcategory from&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;msme_verification_details&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="20" y="107.5" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0" source="5lzXS4pnuD2XTNb6hV_C-5" target="5lzXS4pnuD2XTNb6hV_C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-5" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Store the Gender and &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;SocialCategory details in &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;data d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="20" y="195" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-6" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Store the data into &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;cat_id.csv file&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-0" vertex="1">
+          <mxGeometry x="470" y="197.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="175" as="sourcePoint" />
+            <mxPoint x="109.5" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-7" value="Merge the govt.initiative data and score_table data created through product similarity: split2_gi_data_ext_score" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="55" y="420" width="740" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-8" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Store the cat_id.tsv(prod. similarity)&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt; file into main_data_1 d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="10" y="40" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5lzXS4pnuD2XTNb6hV_C-7" source="5lzXS4pnuD2XTNb6hV_C-9" target="5lzXS4pnuD2XTNb6hV_C-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-9" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Store the cat_id.csv file data&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;into gov_data d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="280" y="45" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-10" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Merge the main_data_1&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;and gov_data into main_data&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;using product_id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="530" y="30" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-7" source="5lzXS4pnuD2XTNb6hV_C-11" target="5lzXS4pnuD2XTNb6hV_C-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-11" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Select and order specific &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;columns for final score table&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="25" y="255" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-7" source="5lzXS4pnuD2XTNb6hV_C-12" target="5lzXS4pnuD2XTNb6hV_C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-12" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Replace categorical values with &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;numerical values using the mapping&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="270" y="139.37" width="210" height="76.25" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-7" source="5lzXS4pnuD2XTNb6hV_C-14" target="5lzXS4pnuD2XTNb6hV_C-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-14" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Map Gender and SocialCategory details&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Male = 1,Others = 2,Female = 3&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;General = 1, OBC = 2, SC=3,ST=3&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;and store in mapping&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 12px;&quot;&gt;&#x9;&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="520" y="125" width="220" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-7" source="5lzXS4pnuD2XTNb6hV_C-15" target="5lzXS4pnuD2XTNb6hV_C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-15" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fill NaN values with 0&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;for Gender and &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;SocialCategory&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="40" y="145" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5lzXS4pnuD2XTNb6hV_C-16" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Save the final score table to &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Score12 Table cat_id.csv file&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="5lzXS4pnuD2XTNb6hV_C-7" vertex="1">
+          <mxGeometry x="277.5" y="250" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfXR20t7EJV-HgB2srmZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5lzXS4pnuD2XTNb6hV_C-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="64.5" as="sourcePoint" />
+            <mxPoint x="280" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5lzXS4pnuD2XTNb6hV_C-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="100" as="sourcePoint" />
+            <mxPoint x="605" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.518;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PfXR20t7EJV-HgB2srmZ-0" target="KuK2tchU7G1Q165hKLO4-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="1190" />
+              <mxPoint x="439" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PfXR20t7EJV-HgB2srmZ-0" value="Fetch the top 10 made in india similar products: mii_gi(product_id,cat_id)" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="55" y="970" width="765" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PfXR20t7EJV-HgB2srmZ-0" source="PfXR20t7EJV-HgB2srmZ-1" target="KuK2tchU7G1Q165hKLO4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfXR20t7EJV-HgB2srmZ-1" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Store the Score12 Table cat_id.tsv into &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;score_table d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" parent="PfXR20t7EJV-HgB2srmZ-0" vertex="1">
+          <mxGeometry x="15" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfXR20t7EJV-HgB2srmZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="PfXR20t7EJV-HgB2srmZ-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PfXR20t7EJV-HgB2srmZ-0" source="KuK2tchU7G1Q165hKLO4-21" target="KuK2tchU7G1Q165hKLO4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-21" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the offer_price of product_id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="PfXR20t7EJV-HgB2srmZ-0">
+          <mxGeometry x="261" y="30" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PfXR20t7EJV-HgB2srmZ-0" source="KuK2tchU7G1Q165hKLO4-22" target="KuK2tchU7G1Q165hKLO4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-22" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the product_id&#39;s which have &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;offer_price less than the input product_id &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;store into data1 d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="PfXR20t7EJV-HgB2srmZ-0">
+          <mxGeometry x="515" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PfXR20t7EJV-HgB2srmZ-0" source="KuK2tchU7G1Q165hKLO4-23" target="KuK2tchU7G1Q165hKLO4-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-23" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the product_id&#39;s which have &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;similartiy_score between 90 - 100&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="PfXR20t7EJV-HgB2srmZ-0">
+          <mxGeometry x="532.5" y="129" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="PfXR20t7EJV-HgB2srmZ-0" source="KuK2tchU7G1Q165hKLO4-24" target="KuK2tchU7G1Q165hKLO4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-24" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the product_id&#39;s which have &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;MII percentage &amp;gt; 50&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="PfXR20t7EJV-HgB2srmZ-0">
+          <mxGeometry x="290" y="129" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-25" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the top 10 MII products&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="PfXR20t7EJV-HgB2srmZ-0">
+          <mxGeometry x="15" y="129" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-35" value="Get the product_id and cat_id from portal through API for MSME products : new_2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80.5" y="1500" width="730" height="120" as="geometry">
+            <mxRectangle x="150" y="800" width="430" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-35" source="KuK2tchU7G1Q165hKLO4-38" target="KuK2tchU7G1Q165hKLO4-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-38" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;Check if the request is coming from the server in the saved ip_list&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-35">
+          <mxGeometry x="11" y="40" width="189" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-39" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: normal; background-color: rgb(251, 251, 251);&quot;&gt;Get the product_id and cat_id from user through API&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-35">
+          <mxGeometry x="245" y="45" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KuK2tchU7G1Q165hKLO4-40" target="KuK2tchU7G1Q165hKLO4-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-40" value="Fetch the top 10 msme similar products: msme_gi(product_id,cat_id)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="1660" width="765" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-40" source="KuK2tchU7G1Q165hKLO4-42" target="KuK2tchU7G1Q165hKLO4-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-42" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Store the Score12 Table cat_id.tsv into &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;score_table d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry x="15" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-40" source="KuK2tchU7G1Q165hKLO4-45" target="KuK2tchU7G1Q165hKLO4-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-45" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the offer_price of product_id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry x="285" y="30" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-40" source="KuK2tchU7G1Q165hKLO4-47" target="KuK2tchU7G1Q165hKLO4-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-47" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Fetch the product_id&#39;s which have &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;offer_price less than the input product_id &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;store into data1 d/f&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry x="515" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-40" source="KuK2tchU7G1Q165hKLO4-49" target="KuK2tchU7G1Q165hKLO4-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-49" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Filter data for msme=yes and&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;sold_as= OEM&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry x="532.5" y="129" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-40" source="KuK2tchU7G1Q165hKLO4-51" target="KuK2tchU7G1Q165hKLO4-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-51" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Sort results by gender and&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;social_category&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry x="290" y="129" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-40" source="KuK2tchU7G1Q165hKLO4-52" target="KuK2tchU7G1Q165hKLO4-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-52" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Select relevant columns &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry x="15" y="129" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-73" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Filter data for female in gender and &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;sc/st in social_category &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-40">
+          <mxGeometry x="15" y="220" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="PfXR20t7EJV-HgB2srmZ-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="930" as="sourcePoint" />
+            <mxPoint x="430" y="969" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446" y="1620" as="sourcePoint" />
+            <mxPoint x="446" y="1655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-58" value="Encrypt and send the data to portal" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="42.5" y="1220" width="765" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-58" source="KuK2tchU7G1Q165hKLO4-60" target="KuK2tchU7G1Q165hKLO4-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-60" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Encrypt the top 10 product id&#39;s data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-58">
+          <mxGeometry x="15" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-58" source="KuK2tchU7G1Q165hKLO4-63" target="KuK2tchU7G1Q165hKLO4-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-63" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Calculate the response time for the &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;code execution&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-58">
+          <mxGeometry x="285" y="30" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-65" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Send the encrypted data, &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;iv (to decrypt the data),&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;response_time to portal&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-58">
+          <mxGeometry x="515" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-58" target="KuK2tchU7G1Q165hKLO4-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532.5" y="159" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-74" value="Encrypt and send the data to portal" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="2000" width="765" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-74" source="KuK2tchU7G1Q165hKLO4-76" target="KuK2tchU7G1Q165hKLO4-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-76" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Encrypt the top 10 product id&#39;s data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-74">
+          <mxGeometry x="15" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="65" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-74" source="KuK2tchU7G1Q165hKLO4-79" target="KuK2tchU7G1Q165hKLO4-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-79" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Calculate the response time for the &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;code execution&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-74">
+          <mxGeometry x="285" y="30" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-80" value="&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;Send the encrypted data, &lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;iv (to decrypt the data),&lt;/div&gt;&lt;div style=&quot;font-size: 12px; line-height: 19px; white-space: pre;&quot;&gt;response_time to portal&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=default;fontColor=default;fontFamily=Helvetica;" vertex="1" parent="KuK2tchU7G1Q165hKLO4-74">
+          <mxGeometry x="515" y="30" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KuK2tchU7G1Q165hKLO4-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KuK2tchU7G1Q165hKLO4-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532.5" y="159" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
